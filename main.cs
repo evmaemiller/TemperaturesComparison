@@ -23,12 +23,12 @@ class Program
                     } 
                     else 
                     {
-                        Console.WriteLine("EXCEPTION Temperature is invalid. Please enter a valid temperature between -30 and 130.");
+                        Console.WriteLine("EXCEPTION Temperature is invalid. Please enter a valid temperature between -30 and 130");
                     }
                 } 
                 else 
                 {
-                    Console.WriteLine("Invalid input. Please enter a valid integer.");
+                    Console.WriteLine("Invalid input. Please try again.");
                 }
             }
         }
@@ -75,7 +75,7 @@ class Program
         Console.WriteLine("]");
 
         double averageTemperature = CalculateAverage(temperatures);
-        Console.WriteLine($"Average temperature: {averageTemperature:F2}");
+        Console.WriteLine($"Average temperature is {averageTemperature:F2}");
         Console.ReadKey();
     }
 
